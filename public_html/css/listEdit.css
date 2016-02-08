@@ -1,0 +1,185 @@
+.arrowTop, .arrowBottom, .arrowDownOne, .arrowUpOne{
+	cursor:pointer;
+	cursor:hand;
+	height:1.2em;
+	width:1.2em;
+}
+.buttonGray {
+	border-color: #BBBBBB #BBBBBB #8A8A8A #BBBBBB;
+	border-style: solid;
+	border-radius: 6px;
+	border-width: 1px;
+	color: #000000;
+	margin: 0;
+	padding: 4px 10px;
+	text-align: center;
+}
+.buttonGray:hover {
+	border-color: #999 #999 #656565 #999;
+	cursor: pointer;
+	cursor: hand;
+}
+.buttonSelectCharacter {
+	border-style: solid;
+	border-radius: 4px;
+	border-width: 1px;
+	margin: 2px;
+	padding: 2px 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+.buttonSelectCharacter:hover {
+}
+.comments{
+	background-color:white;
+	text-align:left;
+}
+.commentsHolder{
+	background-color:inherit;
+	display:none;
+	margin:0;
+	min-width:458px;
+	padding:5px;
+	text-align:left;
+}
+.commentsHolder:hover{
+	/*border:1px solid #00BCDC;*/
+}
+.copyValue{
+	margin-left:.5em;
+}
+.editLineHolder{
+	border:4px solid red;
+	margin:-1px -5px -2px -5px;
+	padding:1px;
+	position:relative;
+}
+.fontScript{
+	font-family: Courier,Courier New,monospace;
+}
+.lineButtonsColumn{
+	padding:0px 0px 5px 5px;
+	text-align:center;
+	vertical-align:top;	
+	width:100px;
+}
+.lineCount{
+	font-size:.7em;
+	line-height:1em;
+	position:absolute;
+	text-align:left;
+	vertical-align:top;
+}
+.lineDivAdd{
+	clear:both;
+	line-height:1.1em;
+	margin:0px 0px 0px 0px;
+	padding:0px 5px 0px 5px;
+	position:relative;
+	width:100%;
+	/*-moz-border-radius:8px;
+	-webkit-border-radius:8px;*/
+}
+.lineForTalent{
+	font-size:large;
+	border-bottom:1px dashed black;
+	line-height:1.1em;
+	padding:3px 0px 0px 4px;
+	text-align:left; 
+	vertical-align:top;
+}
+.lineHistory{
+	font-size:.6em;
+	line-height:1.2em;
+	margin:0px 0px 0px 0px;
+	padding:0px 3px 0px 0px;
+	text-align:center; 
+	vertical-align:top;
+}
+.lineTech{
+	text-align:center; 
+	vertical-align:top;
+}
+.lineTechBit{
+	margin:0 .5em;
+	white-space: nowrap;
+}
+.lineMain{
+	border:1px solid #00BCDC;
+	margin-bottom:.1em;
+	page-break-inside:avoid;
+	width:100%;
+}
+.lineCell{
+	font-family:Courier, "Courier New", monospace;
+	margin:auto;
+	padding:.5em;
+	vertical-align:top;
+	width:100%;
+}
+.lineCell4{
+	padding:5px 0px 0px 0px;
+	text-align:left;
+	vertical-align:top;
+}
+.listSelect:hover{
+	background-color:#00BCDC;
+}
+.printLayout{
+	width:100%;
+	background-color:white;
+	color:#333333;
+	position:relative;
+}
+.selectCharacterContainer{
+	border-color: #BBBBBB #BBBBBB #8A8A8A #BBBBBB;
+	border-style: solid;
+	border-width: 1px;
+	display:inline-block;
+	font-size:larger;
+	line-height:1.3em;
+	margin:.5em;
+	padding:.5em;
+	width:13em;
+}
+td.editLine{
+	border-bottom:1px dashed black;
+	padding:0px 0px 0px 4px;
+	text-align:left; 
+	vertical-align:top;
+	width:430px;
+}
+td.editNotes{
+	border:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.9em;
+	line-height:1em;
+	padding:2px 0px 0px 4px;
+	text-align:left; 
+	vertical-align:top;
+	width:430px;
+}
+.viewOptionsItem{
+	padding:.1em;
+	text-align:left;
+}
+
+/* First breakpoint at 576px */
+/* Tablet size? Inherits mobile styles, but floats containers to make columns */
+@media all and (min-width: 36em) {
+.lineCell{
+}
+}
+/* Second breakpoint at 800px */
+/* Desktop monitor size. Adjusts column proportions */
+@media all and (min-width: 54em) {
+	.lineCell{
+		width:40%;
+}
+}
+/* Large monitor size. 
+@media all and (min-width: 74em){
+	.ui-field-contain, .ui-input-text, button.ui-btn, button.ui-btn-icon-notext, button.ui-controlgroup-controls {width:35%;}
+	.labelRight{text-align:right;}
+	*/
+}

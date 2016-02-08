@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Pricing
+*/
+.borderLeft{
+	border-left:1px solid #D2D3D4;
+	overflow:inherit;
+}
+.borderRight{
+	border-right:1px solid #D2D3D4;
+	overflow:inherit;
+}
+.borders{
+	border-left:1px solid #D2D3D4;
+	border-right:1px solid #D2D3D4;
+}
+.check{
+	clear:left;
+	background:url("../images/check.png") no-repeat scroll right center;
+	display:inline-block;
+	height:1.5em;
+	margin:.8em 5px .8em 0;
+	width:1.5em;
+}
+.checkText{
+	display:inline-block;
+	height:1.5em;
+	margin:1.1em 0;
+	vertical-align:top;
+}
+.column{
+	border-bottom:1px solid #D2D3D4;
+	display:inline-block;
+	position:relative;
+	overflow:inherit;
+	width:24.5%;
+	vertical-align:top;
+}
+.column1{
+	background:none repeat scroll 0 0 #F5F6F7;
+	border-left:1px solid #D2D3D4;
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	/*box-shadow:-6px 0 6px 0px rgba(0, 0, 0, 0.2) inset;*/
+	margin-top:1em;
+	z-index:0;
+}
+.column1Bottom{
+}
+.column2{
+	border-bottom-left-radius:6px;
+	border-top-left-radius:6px;
+	box-shadow: -6px 6px 6px 0px rgba(0,0,0,0.2);
+	z-index:10;
+}
+.column2Bottom{
+	border-left:1px solid #D2D3D4;
+	border-right:1px solid #D2D3D4;
+	padding-bottom:20px;
+}
+.column3{
+	border-bottom-right-radius:6px;
+	border-top-right-radius:6px;
+	box-shadow:6px 6px 6px 0px rgba(0,0,0,0.2);
+	z-index:10;
+}
+.column3Bottom{
+	border-right:1px solid #D2D3D4;
+	padding-bottom:20px;
+}
+.column4{
+	background:none repeat scroll 0 0 #F5F6F7;
+	border-right:1px solid #D2D3D4;
+	border-top-right-radius:6px;
+	border-bottom-left-radius:6px;
+	border-bottom-right-radius:6px;
+	margin-top:1em;
+}
+.column4Bottom{
+	/*box-shadow: 6px 0 6px 0px rgba(0, 0, 0, 0.2) inset;
+	z-index:10;*/
+}
+.name{
+	border-top-left-radius:inherit;
+	border-top-right-radius:inherit;
+	color:#FFF;
+	font-size:1.5em;
+	font-weight:700;
+	line-height:2em;
+	padding:8px 0;
+	text-shadow:none;
+}
+.nameCenter{
+	border-color: #008CC8 #008CC8 #008CC8 #006491;
+    border-style:solid;
+	border-width:1px;
+	border-top-left-radius:inherit;
+	border-top-right-radius:inherit;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+}
+.price{
+	background:none repeat scroll 0 0 #FFF;
+	border-bottom:1px solid #E1E2E3;
+	clear:left;
+	color: #505052;
+	font-size:1.7em;
+	font-weight:bold;
+    line-height:1em;
+    padding:20px 0;
+	width:100%;
+}
+.pricePer{
+	color:#888;
+	font-weight:normal;
+	font-size:.55em;
+	margin:.3em 0 0 0;
+}
+.priceText{
+	font-size:.6em;
+	font-weight:normal;
+	margin:0 5px;
+}
+.purchase{
+	border-top:1px solid #D2D3D4;
+	clear:both;
+	padding:2em 0;
+}
+.save{
+	color:red;
+	font-size:.6em;
+	margin:5px 0 0 0;
+}
+.terms{
+	border:	1px solid #D2D3D4;
+	border-radius:6px;
+	display:none;
+	padding:2em;
+	margin:1em 0;
+	text-align:left;
+}
+.termsToggle{
+	clear:both;
+	color:black;
+	cursor:pointer;
+	cursor:hand;
+	font-size:larger;
+	margin:1em 0;
+	vertical-align:bottom;
+}

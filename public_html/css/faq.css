@@ -1,0 +1,71 @@
+.faq{
+	/*padding:5px 5px 0px 5px;*/
+}
+.faqA{
+	color:red;
+	line-height:1.2em;
+	padding:2px 2px 0px 0px;
+	text-align:right;
+	vertical-align:top;
+	width:1em;
+}
+.faqAnswer{
+	clear:both;
+	display:none;
+	line-height:1.3em;
+	padding:5px 0px 5px 0px;
+	text-align:left;
+	vertical-align:top;
+}
+.faqEdit{
+	padding:0px 0px	5px 5px;
+}
+.faqEditA{
+	color:red;
+	float:left;
+	font-size:1em;
+	vertical-align:top;
+}
+.faqEditAnswer{
+	border:1px solid black;
+	font-size:1.2em;
+	vertical-align:top;
+	width:96%;
+}
+.faqEditId{
+	float:right;
+	font-size:.8em;
+	padding:0px 5px 0px 0px;
+}
+.faqEditQ{
+	color:#00BCDC;
+	float:left;
+	font-size:1em;
+	vertical-align:top;
+}
+.faqEditQuestion{
+	border:1px solid black;
+	color:#00BCDC;
+	font-size:1.2em;
+	vertical-align:top;
+	width:96%;
+}
+.faqId{
+	font-size:0.7em;
+	font-weight:normal;
+
+}
+.faqQ{
+	color:#00BCDC;
+	line-height:1.2em;
+	padding-left:3px;
+	padding-right:2px;
+	text-align:right;
+	vertical-align:top;
+	width:1em;
+}
+.faqQuestion{
+	text-align:left;
+	font-weight:bold;
+	vertical-align:top;
+}

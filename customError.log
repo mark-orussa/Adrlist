@@ -1,0 +1,4 @@
+The supplied variable is not an array: InvalidArgumentException: error handler is already set in /Users/markproaudio/Sites/adrlist.dev/includes/Classes/Adrlist/ErrorHandler.php:20
+Stack trace:
+#0 /Users/markproaudio/Sites/adrlist.dev/public_html/demo/index.php(35): Adrlist_ErrorHandler->__construct(NULL, true)
+#1 {main}<br>
